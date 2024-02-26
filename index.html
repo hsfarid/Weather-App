@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form class="change-location">
+        <label for="city">Enter a location for weather information</label>
+        <input type="text" name="city" placeholder="location" />
+      </form>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x300" class="time" />
+        <div class="icon">
+          <!-- icon  -->
+          <img src="" alt="" />
+
+          <div class="details">
+            <h5>City name</h5>
+            <div>Weather conditions</div>
+            <div class="temp">
+              <span>Temp</span>
+              <span>&deg;C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
